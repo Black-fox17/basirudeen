@@ -15,6 +15,8 @@ import {
   Brain,
   Send
 } from 'lucide-react';
+import image_1 from '../image_1.jpg'
+import image_2 from '../image_2.jpg'
 
 function App() {
   useEffect(() => {
@@ -76,7 +78,7 @@ function App() {
           </div>
           <div className="fade-in">
             <img
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d"
+              src={image_1}
               alt="Profile Picture 1"
               className="rounded-2xl shadow-xl w-full max-w-md mx-auto"
             />
@@ -90,7 +92,7 @@ function App() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="fade-in">
               <img
-                src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d"
+                src={image_2}
                 alt="Profile Picture 2"
                 className="rounded-2xl shadow-xl"
               />
@@ -216,7 +218,7 @@ function App() {
                   Vaccine Inequalities, Hesitancy, and Media-Focused Public Health Interventions in English-speaking West-African Countries
                 </h3>
                 <p className="text-gray-600">2024</p>
-                <a href="#" className="text-blue-600 hover:text-blue-700 mt-4 inline-flex items-center gap-2">
+                <a href="https://www.researchgate.net/publication/382052204_Vaccine_inequalities_hesitancy_and_media-focused_public_health_interventions_in_English-speaking_West-African_Countries?_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6InByb2ZpbGUiLCJwYWdlIjoicHJvZmlsZSJ9fQ" target = "_blank"className="text-blue-600 hover:text-blue-700 mt-4 inline-flex items-center gap-2">
                   Read Paper <ExternalLink size={16} />
                 </a>
               </div>
@@ -225,7 +227,7 @@ function App() {
                   Need For Practical Based Educational System in Oye-Ekiti Local Government Area of Nigeria
                 </h3>
                 <p className="text-gray-600">2021</p>
-                <a href="#" className="text-blue-600 hover:text-blue-700 mt-4 inline-flex items-center gap-2">
+                <a href="https://www.researchgate.net/publication/366670031_NEED_FOR_PRACTICAL_BASED_EDUCATIONAL_SYSTEM_IN_OYE-EKITI_LOCAL_GOVERNEMENT_AREA_OF_NIGERIA?_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6InByb2ZpbGUiLCJwYWdlIjoicHJvZmlsZSJ9fQ" target = "_blank" className="text-blue-600 hover:text-blue-700 mt-4 inline-flex items-center gap-2">
                   Read Paper <ExternalLink size={16} />
                 </a>
               </div>
@@ -330,7 +332,7 @@ function App() {
       <footer className="bg-white py-8 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto flex flex-col items-center">
           <div className="flex gap-6 mb-4">
-            <a href="#" className="text-gray-600 hover:text-blue-600 transition-colors">
+            <a href="https://www.linkedin.com/in/ibrahim-badirudeen-07a145154/" className="text-gray-600 hover:text-blue-600 transition-colors">
               <Linkedin size={20} />
             </a>
             <a href="#" className="text-gray-600 hover:text-blue-600 transition-colors">
