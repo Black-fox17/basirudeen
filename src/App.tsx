@@ -16,7 +16,7 @@ import {
   Send
 } from 'lucide-react';
 import image_1 from '../image_1.jpg'
-import image_2 from '../image_2.jpg'
+import image_2 from '../Image_2.jpg'
 
 function App() {
   useEffect(() => {
